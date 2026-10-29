@@ -1,0 +1,336 @@
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Life+Savers:wght@800&family=Lobster&family=Neuton:ital,wght@0,200;0,300;0,400;0,700;0,800;1,400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Life+Savers:wght@800&family=Lobster&family=Neuton:ital,wght@0,200;0,300;0,400;0,700;0,800;1,400&display=swap');
+
+body {
+    background-color: #fffaf2;
+    color: #403653;
+    font-family: 'IBM Plex Serif', serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #7765a8;
+    color: white;
+    text-align: center;
+    padding: 1.5rem;
+}
+
+header h1 {
+    font-family: 'Life Savers', cursive;
+    font-size: 2.2rem;
+}
+
+header p {
+    font-family: 'IBM Plex Serif', serif;
+}
+
+.navegacion {
+    background-color: #594879;
+    text-align: center;
+    padding: 0.9rem;
+}
+
+.navegacion a {
+    color: white;
+    text-decoration: none;
+    margin: 0.6rem;
+    font-family: 'Neuton', serif;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.navegacion a:hover {
+    color: #ffe69a;
+}
+
+h2 {
+    color: #65518b;
+    font-family: 'Lobster', cursive;
+    font-size: 1.8rem;
+    margin-bottom: 0.9rem;
+}
+
+h3 {
+    color: #76602e;
+    font-family: 'Neuton', serif;
+    font-size: 1.6rem;
+}
+
+p {
+    line-height: 1.7;
+}
+
+.contenedor1 {
+    background-color: #eee7fa;
+    padding: 1.2rem;
+    margin-bottom: 1.2rem;
+    border: 0.12rem solid #d5c4ed;
+    border-radius: 0.8rem;
+}
+
+.contenedor2 {
+    background-color: #fff1c9;
+    padding: 1.2rem;
+    margin-bottom: 1.2rem;
+    border: 0.12rem solid #f0d98e;
+    border-radius: 0.8rem;
+}
+
+.contenedor3 {
+    background-color: #f5edff;
+    padding: 1.2rem;
+    margin-bottom: 1.2rem;
+    border: 0.12rem solid #d9c5f0;
+    border-radius: 0.8rem;
+}
+
+.contenedor4 {
+    background-color: #fff0df;
+    padding: 1.2rem;
+    margin-bottom: 1.2rem;
+    border: 0.12rem solid #f2d0ad;
+    border-radius: 0.8rem;
+}
+
+.contenedor5 {
+    background-color: #f4edff;
+    padding: 1.2rem;
+    margin-bottom: 1.2rem;
+    border: 0.12rem solid #d5c4ed;
+    border-radius: 0.8rem;
+}
+
+.contenedor6 {
+    background-color: #eee7fa;
+}
+
+.contenedor7 {
+    background-color: #fff1c9;
+}
+
+.contenedor8 {
+    background-color: #fff0df;
+}
+
+.contenedor9 {
+    background-color: #f5edff;
+}
+
+.seccion-criminalistica {
+    background-color: #eee7fa;
+}
+
+.seccion-indicios {
+    background-color: #fff1c9;
+}
+
+.seccion-importancia {
+    background-color: #fff0df;
+}
+
+.seccion-videos {
+    background-color: #f5edff;
+}
+
+.contenedor6,
+.contenedor7,
+.contenedor8,
+.contenedor9,
+.seccion-criminalistica,
+.seccion-indicios,
+.seccion-importancia,
+.seccion-videos,
+.contenedor-jessica,
+.contenedor-otros,
+.contenedor-formulario {
+    border: 0.12rem solid #e1d1ee;
+    border-radius: 0.8rem;
+    margin-bottom: 1.2rem;
+}
+
+article {
+    padding: 0.9rem;
+    margin-bottom: 0.9rem;
+    border-radius: 0.8rem;
+}
+
+/* TAMAÑO DE LAS IMÁGENES */
+article img {
+    width: 100%;
+    max-width: 21.875rem;
+    height: auto;
+    border: 0.2rem solid #e4c7a8;
+    border-radius: 0.8rem;
+    display: block;
+    margin: 0.6rem auto;
+    padding: 0.2rem;
+    background-color: #fffaf2;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border: 0.15rem solid #dfc8ee;
+    border-radius: 0.8rem;
+}
+
+/* TAMAÑO DE LOS VIDEOS LOCALES */
+video {
+    width: 25rem;
+    height: 18rem;
+    max-width: 100%;
+    border: 0.2rem solid #e5cc91;
+    border-radius: 0.8rem;
+    background-color: #fffaf2;
+}
+
+
+iframe {
+    width: 30rem;
+    height: 18rem;
+    max-width: 100%;
+    border: 0.2rem solid #d5c4ed;
+    border-radius: 0.8rem;
+}
+
+a {
+    color: #65518b;
+}
+
+a:hover {
+    color: #a17a36;
+}
+
+form {
+    background-color: #fffaf2;
+    padding: 1.6rem;
+    border: 0.12rem solid #d5c4ed;
+    border-radius: 0.8rem;
+    margin-top: 0.9rem;
+}
+
+form label {
+    color: #65518b;
+    font-family: 'Neuton', serif;
+    font-size: 1.2rem;
+}
+
+.form-control,
+.form-select {
+    border: 0.08rem solid #c9b7df;
+    background-color: #ffffff;
+    font-family: 'IBM Plex Serif', serif;
+}
+
+.form-control:focus,
+.form-select:focus {
+    border-color: #a28acb;
+    box-shadow: 0 0 0.3rem #d5c4ed;
+}
+
+.form-text {
+    color: #766b88;
+}
+
+.btn-primary {
+    background-color: #7765a8;
+    border-color: #7765a8;
+}
+
+.btn-primary:hover {
+    background-color: #594879;
+    border-color: #594879;
+}
+
+.btn-secondary {
+    background-color: #c6a653;
+    border-color: #c6a653;
+    color: #332846;
+}
+
+.btn-secondary:hover {
+    background-color: #aa8a3d;
+    border-color: #aa8a3d;
+    color: white;
+}
+
+.contenedor-jessica {
+    background-color: #eee7fa;
+}
+
+.contenedor-otros {
+    background-color: #fff1c9;
+}
+
+.tarjeta-creador {
+    background-color: #fffaf2;
+    border: 0.15rem solid #e4c7a8;
+    border-radius: 0.8rem;
+}
+
+.contenedor-formulario {
+    background-color: #f5edff;
+}
+
+footer {
+    background-color: #594879;
+    color: white;
+    text-align: center;
+    padding: 1.2rem;
+    margin-top: 1.2rem;
+}
+
+footer p {
+    margin: 0.3rem;
+}
+
+
+@media (max-width: 37.5rem) {
+    header {
+        padding: 0.9rem;
+    }
+
+    header h1 {
+        font-size: 1.6rem;
+    }
+
+    .navegacion a {
+        display: block;
+        margin: 0.6rem 0;
+    }
+
+    main {
+        padding: 0.6rem;
+    }
+
+    section {
+        padding: 0.9rem;
+    }
+
+    article {
+        width: 100%;
+        margin-bottom: 1.2rem;
+    }
+
+    img {
+        max-width: 100%;
+    }
+
+
+    video,
+    iframe {
+        width: 100%;
+        height: auto;
+    }
+
+    form {
+        padding: 0.9rem;
+    }
+
+    h2 {
+        font-size: 1.6rem;
+    }
+}
